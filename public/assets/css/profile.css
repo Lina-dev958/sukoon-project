@@ -1,0 +1,381 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #ffffff;
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    padding-top: 80px;
+}
+
+
+.custom-nav {
+    background: #14B8A6;
+    padding: 12px 0;
+}
+
+.logo-img {
+    height: 55px;
+    width: auto;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.nav-links .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-links .nav-link:hover {
+    color: #eafff5 !important;
+}
+
+.btn-consult {
+    background: #ffffff;
+    color: #14B8A6;
+    padding: 8px 22px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 2px solid #ffffff;
+}
+
+.btn-consult:hover {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.breadcrumb {
+    color: #14B8A6;
+    font-size: 14px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.profile-card {
+    border-radius: 22px;
+    padding: 30px;
+    border: 1px solid #14B8A6;
+}
+
+.profile-img {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    display: block;
+    border: 4px solid #14B8A6;
+}
+
+.profile-info {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.profile-info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.profile-info li:last-child {
+    border-bottom: none;
+}
+
+.profile-info li i {
+    color: #14B8A6;
+    font-size: 16px;
+}
+
+.info-box {
+    border-radius: 18px;
+    padding: 25px;
+    border: 1px solid #14B8A6;
+}
+
+.tag {
+    color: #14B8A6;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 13px;
+    border: 1px solid #14B8A6;
+    transition: 0.3s;
+}
+
+.tag:hover {
+    background: #14B8A6;
+    color: #ffffff;
+}
+
+.progress-bar {
+    background-color: #14B8A6;
+    border-radius: 10px;
+}
+
+.review {
+    padding: 18px;
+    border-radius: 14px;
+    font-size: 14px;
+    min-height: 100px;
+    text-align: center;
+    border: 1px solid #e6f7f5;
+}
+
+.carousel-indicators .active {
+    background-color: #14B8A6;
+}
+
+.btn-success {
+    background-color: #14B8A6;
+    border-color: #14B8A6;
+    border-radius: 25px;
+    padding: 6px 18px;
+}
+
+.btn-success:hover {
+    background-color: #0f9f90;
+    border-color: #0f9f90;
+}
+
+.btn-outline-success {
+    color: #14B8A6;
+    border-color: #14B8A6;
+    border-radius: 25px;
+    padding: 6px 18px;
+}
+
+.btn-outline-success:hover {
+    background-color: #14B8A6;
+    color: #ffffff;
+}
+
+.skill {
+    margin-bottom: 12px;
+}
+
+.progress {
+    height: 8px;
+    background: #eafff5;
+}
+
+.progress-bar {
+    background-color: #14B8A6;
+}
+
+.review {
+
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    min-height: 90px;
+    text-align: center;
+}
+
+.stars {
+    color: #f5b301;
+    margin-top: 8px;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #cfcfcf;
+}
+
+.carousel-indicators .active {
+    background-color: #1f7f73;
+}
+
+
+.footer {
+    background: linear-gradient(135deg, #168b7f, #1f7f73);
+    color: #fff;
+    padding-top: 80px;
+    direction: rtl;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px 60px;
+    }
+    /* 🔥 الكروت جنب بعض */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* شكل الكرت */
+.service-card {
+    width: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+/* الصورة */
+.card-img img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* المحتوى */
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+/* الزر */
+.card-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 18px;
+    background: #14B8A6;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.footer h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 12px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #d8f3ef;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer-about .logo {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #d8f3ef;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #fff;
+    color: #168b7f;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    color: #d8f3ef;
+}
+
+@media (max-width: 991px) {
+    .btn-consult {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-links .nav-link {
+        margin: 8px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-about p {
+        max-width: 100%;
+    }
+}

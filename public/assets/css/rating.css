@@ -1,0 +1,251 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #ffffff;
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+.custom-nav {
+    background: #14B8A6;
+    padding: 12px 0;
+}
+
+.logo-img {
+    height: 55px;
+    width: auto;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+
+.nav-links .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-links .nav-link:hover {
+    color: #eafff5 !important;
+}
+
+.btn-consult {
+    background: #ffffff;
+    color: #14B8A6;
+    padding: 8px 22px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 2px solid #ffffff;
+}
+
+.btn-consult:hover {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.rating-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.rating-card {
+    width: 100%;
+    max-width: 700px;
+    border: 2px solid #14B8A6;
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rating-card h2 {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.stars i {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.stars i.selected {
+    color: #f5b301;
+}
+
+.form-control {
+    border-radius: 12px;
+    border: 2px solid #14B8A6;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.main-btn {
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 2px solid #14B8A6;
+    background-color: #14B8A6;
+    color: #ffffff;
+    width: 100%;
+}
+
+.main-btn:hover {
+    background-color: #1f7f73;
+    color: #ffffff;
+}
+
+.tiny-text {
+    font-size: 13px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.footer {
+    background: linear-gradient(135deg, #168b7f, #1f7f73);
+    color: #fff;
+    padding-top: 80px;
+    direction: rtl;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px 60px;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 12px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #d8f3ef;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer-about .logo {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #d8f3ef;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #fff;
+    color: #168b7f;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    color: #d8f3ef;
+}
+
+@media (max-width: 991px) {
+    .btn-consult {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-links .nav-link {
+        margin: 8px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-about p {
+        max-width: 100%;
+    }
+}
