@@ -128,7 +128,7 @@
 
             @forelse($articles as $article)
                 <div class="article-card">
-                    <img src="{{ asset('storage/' . $article->image) }}" alt="">
+                    <img src="{{ asset('storage/' . $article->image) }}" alt="" width="200px">
         
                     <div class="article-content">
                         <h5>{{ $article->title }}</h5>
