@@ -37,7 +37,7 @@
     </form>
 
         <p class="tiny-text mt-3">
-            إذا لم يكن لديك حساب معالج، <a href="therapist-register.html">سجّل الآن</a>
+            إذا لم يكن لديك حساب معالج، <a href="{{ route('therapist.register') }}">سجّل الآن</a>
         </p>
     </div>
 </div>
