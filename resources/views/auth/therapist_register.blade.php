@@ -42,7 +42,7 @@
         </form>
 
         <p class="tiny-text mt-3 text-end">
-            لديك حساب بالفعل؟ <a href="therapist-login.html">تسجيل الدخول</a>
+            لديك حساب بالفعل؟ <a href="{{ route('therapist.login') }}">تسجيل الدخول</a>
         </p>
     </div>
 </div>
